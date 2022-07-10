@@ -1,0 +1,175 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+#nav-bar{
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+.navbar{
+    background-color: purple;
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 10px;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+}
+.collapse li a:hover{
+    background-color: rgb(238, 242, 245);
+    color: black !important;
+    border-radius: 10px;
+}
+
+/* banner section */
+#banner{
+    background-color: blueviolet;
+    color: white;
+    padding-top: 5%;
+}
+.title{
+    margin: 10px;
+    font-size: 40px;
+    font-weight: 600;
+}
+/* services section */
+#services{
+    padding: 50px 0;
+}
+.service-img{
+    width: 60%;
+    margin-top: 20px;
+}
+.h-title{
+    border-top: 5px solid purple;
+    /* border-bottom: 5px solid purple; */
+}
+.services h4{
+     padding-top: 10px;
+    text-transform: uppercase;
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 5px 10px;
+    border: none;
+    background-color: purple;
+}
+/* about us section */
+#about-us{
+    padding: 40px 0;  
+}
+.carousel-item img{
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.p-1{
+    margin-top: 40px;
+    text-align: start;
+}
+.list{
+    text-align: start;
+}
+.p-3{
+    margin-top: 40px;
+    text-align: start;
+}
+
+#circle{
+    background-color: blueviolet;
+    height: 100%;
+}
+/* our work section */
+.our{
+    text-align: start;
+    font-weight: 600;
+}
+    
+
+.carousel-item-2 img {
+    height: 105px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 36px;
+}
+#founder{
+    background: url(13.jpg) no-repeat center/cover;
+    margin-top: 40px;
+}
+.carousel-item-2 h4{
+    margin: 30px;
+} 
+/* PORTFOLIO SECTION */
+#portfolio{
+    margin-top: 40px;
+}
+/* social-media section */
+
+#social-midea{
+    background-color: #f8f9fa;
+    padding: 40px 0px;
+}
+#social-midea p{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.logo:hover{
+    color: blueviolet;
+    background-color: aliceblue;
+}
+.logo a{
+
+    font-size: 3rem !important;
+}
+.logo .bi{
+    padding: 30px;
+}
+/* address section */
+#address{
+    background: url(contact.jpg) no-repeat center/cover;
+    height: 50vh;
+    margin-top: 30px;
+
+}
+.add{
+    margin-top: 20px;
+    color: #f8f9fa;
+    border-bottom: 3px solid white;
+}
+.add .bi{
+    padding: 10px;
+}
+.m-2{
+    /* margin-top: 50px; */
+    color: white;
+    padding: 20px;
+}
+.m-3{
+    color: #f8f9fa;
+}
+.m-4{
+    color: #f8f9fa;
+}
+.m-4 .bi{
+    padding: 10px;
+}
+.text-center{
+    width: 50%;
+    margin:auto;
+}
+
+
+
